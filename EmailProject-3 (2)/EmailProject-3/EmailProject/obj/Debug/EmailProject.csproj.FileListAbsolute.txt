@@ -1,0 +1,11 @@
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\bin\Debug\EmailProject.exe.config
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\bin\Debug\EmailProject.exe
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\bin\Debug\EmailProject.pdb
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.csprojAssemblyReference.cache
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.Form1.resources
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.MoreDetails.resources
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.Properties.Resources.resources
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.csproj.GenerateResource.cache
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.exe
+C:\Users\Christopher\Desktop\EmailProject-3 (2)\EmailProject-3\EmailProject\obj\Debug\EmailProject.pdb
