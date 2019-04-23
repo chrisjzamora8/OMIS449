@@ -16,9 +16,65 @@ namespace CD_Account_Test
             InitializeComponent();
         }
 
+        // The GetCDData method accepts a CDAccount object
+        // as an argument. It assigns the data entere by
+        // the user to the object's properties.
+        private void GetCDData (CDAccount account)
+        {
+            // Temporary variables to hold interest rae
+            // and balance
+            decimal interestRate;
+            decimal balance;
+
+            // Get the account number
+            account.AccountNumber = accountNumberTextBox.Text;
+
+            // Get the maturity date. 
+            account.MaturityDate = maturityDateTextBox.Text;
+
+            // Get the interest rate
+            if (decimal.TryParse(interestRateTextBox.Text, out interestRate))
+            {
+                account.InterestRate = interestRate;
+
+                // Get the balance
+                if (decimal.TryParse(balanceTextBox.Text, out balance))
+                {
+                    account.Balance = balance;
+                }
+                else
+                {
+                    // Display an error message.
+                    MessageBox.Show("Invalid balance");
+                }
+            }
+            else
+            {
+                // Display an error message.
+               MessageBox.Show("Invalid interest rate");
+            }
+        }
+
         private void exitButton_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void createObjectButton_Click(object sender, EventArgs e)
+        {
+            // Create a CDAccount object.
+            CDAccount myAccount = new CDAccount();
+            // Get the CD account data.
+            GetCDData(myAccount);
+            // Display the CD account data.
+            accountNumberLabel.Text = myAccount.AccountNumber;
+            interestRateLabel.Text = myAccount.InterestRate.ToString("n2");
+            balanceLabel.Text = myAccount.Balance.ToString("c");            maturityDateLabel.Text = myAccount.MaturityDate;
         }
     }
 }

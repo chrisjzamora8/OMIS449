@@ -18,3 +18,12 @@ C:\Users\Christopher\Desktop\Chap10\CD Account Test\CD Account Test\obj\x86\Debu
 C:\Users\Christopher\Desktop\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.csproj.CoreCompileInputs.cache
 C:\Users\Christopher\Desktop\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.exe
 C:\Users\Christopher\Desktop\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.pdb
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\bin\Debug\CD Account Test.exe
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\bin\Debug\CD Account Test.pdb
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.csprojAssemblyReference.cache
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD_Account_Test.Form1.resources
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD_Account_Test.Properties.Resources.resources
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.csproj.GenerateResource.cache
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.csproj.CoreCompileInputs.cache
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.exe
+C:\Users\Christopher\Documents\GitHub\OMIS449\Chap10\CD Account Test\CD Account Test\obj\x86\Debug\CD Account Test.pdb

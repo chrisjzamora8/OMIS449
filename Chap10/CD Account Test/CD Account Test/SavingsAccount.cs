@@ -33,7 +33,7 @@ namespace CD_Account_Test
         }
 
         // Balance Property
-        public decimal Balanace
+        public decimal Balance
         {
             get { return _balance; }
             set { _balance = value; }

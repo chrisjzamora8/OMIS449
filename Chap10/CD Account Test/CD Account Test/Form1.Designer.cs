@@ -55,7 +55,7 @@
             // exitButton
             // 
             this.exitButton.Location = new System.Drawing.Point(257, 620);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(6);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(138, 74);
             this.exitButton.TabIndex = 7;
@@ -66,12 +66,13 @@
             // createObjectButton
             // 
             this.createObjectButton.Location = new System.Drawing.Point(108, 620);
-            this.createObjectButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.createObjectButton.Margin = new System.Windows.Forms.Padding(6);
             this.createObjectButton.Name = "createObjectButton";
             this.createObjectButton.Size = new System.Drawing.Size(138, 74);
             this.createObjectButton.TabIndex = 6;
             this.createObjectButton.Text = "Create Object";
             this.createObjectButton.UseVisualStyleBackColor = true;
+            this.createObjectButton.Click += new System.EventHandler(this.createObjectButton_Click);
             // 
             // objectGroupBox
             // 
@@ -84,9 +85,9 @@
             this.objectGroupBox.Controls.Add(this.interestRateLabel);
             this.objectGroupBox.Controls.Add(this.accountNumberLabel);
             this.objectGroupBox.Location = new System.Drawing.Point(44, 319);
-            this.objectGroupBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.objectGroupBox.Margin = new System.Windows.Forms.Padding(6);
             this.objectGroupBox.Name = "objectGroupBox";
-            this.objectGroupBox.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.objectGroupBox.Padding = new System.Windows.Forms.Padding(6);
             this.objectGroupBox.Size = new System.Drawing.Size(416, 271);
             this.objectGroupBox.TabIndex = 5;
             this.objectGroupBox.TabStop = false;
@@ -183,9 +184,9 @@
             this.inputGroupBox.Controls.Add(this.inputInterestRatelLabel);
             this.inputGroupBox.Controls.Add(this.inputAccountNumberLabel);
             this.inputGroupBox.Location = new System.Drawing.Point(44, 33);
-            this.inputGroupBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputGroupBox.Margin = new System.Windows.Forms.Padding(6);
             this.inputGroupBox.Name = "inputGroupBox";
-            this.inputGroupBox.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.inputGroupBox.Padding = new System.Windows.Forms.Padding(6);
             this.inputGroupBox.Size = new System.Drawing.Size(416, 255);
             this.inputGroupBox.TabIndex = 4;
             this.inputGroupBox.TabStop = false;
@@ -194,7 +195,7 @@
             // maturityDateTextBox
             // 
             this.maturityDateTextBox.Location = new System.Drawing.Point(204, 185);
-            this.maturityDateTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.maturityDateTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.maturityDateTextBox.Name = "maturityDateTextBox";
             this.maturityDateTextBox.Size = new System.Drawing.Size(180, 29);
             this.maturityDateTextBox.TabIndex = 8;
@@ -202,7 +203,7 @@
             // balanceTextBox
             // 
             this.balanceTextBox.Location = new System.Drawing.Point(205, 137);
-            this.balanceTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.balanceTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.balanceTextBox.Name = "balanceTextBox";
             this.balanceTextBox.Size = new System.Drawing.Size(180, 29);
             this.balanceTextBox.TabIndex = 7;
@@ -210,7 +211,7 @@
             // interestRateTextBox
             // 
             this.interestRateTextBox.Location = new System.Drawing.Point(205, 89);
-            this.interestRateTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.interestRateTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.interestRateTextBox.Name = "interestRateTextBox";
             this.interestRateTextBox.Size = new System.Drawing.Size(180, 29);
             this.interestRateTextBox.TabIndex = 6;
@@ -218,7 +219,7 @@
             // accountNumberTextBox
             // 
             this.accountNumberTextBox.Location = new System.Drawing.Point(205, 41);
-            this.accountNumberTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.accountNumberTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.accountNumberTextBox.Name = "accountNumberTextBox";
             this.accountNumberTextBox.Size = new System.Drawing.Size(180, 29);
             this.accountNumberTextBox.TabIndex = 5;
@@ -272,9 +273,10 @@
             this.Controls.Add(this.createObjectButton);
             this.Controls.Add(this.objectGroupBox);
             this.Controls.Add(this.inputGroupBox);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "CD Account Test";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.objectGroupBox.ResumeLayout(false);
             this.objectGroupBox.PerformLayout();
             this.inputGroupBox.ResumeLayout(false);
