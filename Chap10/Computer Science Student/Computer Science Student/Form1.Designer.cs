@@ -45,21 +45,25 @@
             // 
             // exitButton
             // 
-            this.exitButton.Location = new System.Drawing.Point(160, 203);
+            this.exitButton.Location = new System.Drawing.Point(293, 375);
+            this.exitButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(85, 47);
+            this.exitButton.Size = new System.Drawing.Size(156, 87);
             this.exitButton.TabIndex = 10;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // getHoursButton
             // 
-            this.getHoursButton.Location = new System.Drawing.Point(69, 203);
+            this.getHoursButton.Location = new System.Drawing.Point(127, 375);
+            this.getHoursButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.getHoursButton.Name = "getHoursButton";
-            this.getHoursButton.Size = new System.Drawing.Size(85, 47);
+            this.getHoursButton.Size = new System.Drawing.Size(156, 87);
             this.getHoursButton.TabIndex = 9;
             this.getHoursButton.Text = "Get Required Hours";
             this.getHoursButton.UseVisualStyleBackColor = true;
+            this.getHoursButton.Click += new System.EventHandler(this.getHoursButton_Click);
             // 
             // studentDataGroupBox
             // 
@@ -72,9 +76,11 @@
             this.studentDataGroupBox.Controls.Add(this.inputAcademicTrackLabel);
             this.studentDataGroupBox.Controls.Add(this.inputIDlLabel);
             this.studentDataGroupBox.Controls.Add(this.inputNameLabel);
-            this.studentDataGroupBox.Location = new System.Drawing.Point(34, 12);
+            this.studentDataGroupBox.Location = new System.Drawing.Point(62, 22);
+            this.studentDataGroupBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.studentDataGroupBox.Name = "studentDataGroupBox";
-            this.studentDataGroupBox.Size = new System.Drawing.Size(246, 185);
+            this.studentDataGroupBox.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.studentDataGroupBox.Size = new System.Drawing.Size(451, 342);
             this.studentDataGroupBox.TabIndex = 8;
             this.studentDataGroupBox.TabStop = false;
             this.studentDataGroupBox.Text = "Student Data";
@@ -82,18 +88,20 @@
             // requiredHoursLabel
             // 
             this.requiredHoursLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.requiredHoursLabel.Location = new System.Drawing.Point(109, 141);
+            this.requiredHoursLabel.Location = new System.Drawing.Point(200, 260);
+            this.requiredHoursLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.requiredHoursLabel.Name = "requiredHoursLabel";
-            this.requiredHoursLabel.Size = new System.Drawing.Size(122, 23);
+            this.requiredHoursLabel.Size = new System.Drawing.Size(222, 41);
             this.requiredHoursLabel.TabIndex = 9;
             this.requiredHoursLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // softwareEngineeringRadioButton
             // 
             this.softwareEngineeringRadioButton.AutoSize = true;
-            this.softwareEngineeringRadioButton.Location = new System.Drawing.Point(112, 105);
+            this.softwareEngineeringRadioButton.Location = new System.Drawing.Point(205, 194);
+            this.softwareEngineeringRadioButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.softwareEngineeringRadioButton.Name = "softwareEngineeringRadioButton";
-            this.softwareEngineeringRadioButton.Size = new System.Drawing.Size(126, 17);
+            this.softwareEngineeringRadioButton.Size = new System.Drawing.Size(223, 29);
             this.softwareEngineeringRadioButton.TabIndex = 8;
             this.softwareEngineeringRadioButton.TabStop = true;
             this.softwareEngineeringRadioButton.Text = "Software Engineering";
@@ -102,9 +110,10 @@
             // infoSystemsRadioButton
             // 
             this.infoSystemsRadioButton.AutoSize = true;
-            this.infoSystemsRadioButton.Location = new System.Drawing.Point(112, 82);
+            this.infoSystemsRadioButton.Location = new System.Drawing.Point(205, 151);
+            this.infoSystemsRadioButton.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.infoSystemsRadioButton.Name = "infoSystemsRadioButton";
-            this.infoSystemsRadioButton.Size = new System.Drawing.Size(119, 17);
+            this.infoSystemsRadioButton.Size = new System.Drawing.Size(214, 29);
             this.infoSystemsRadioButton.TabIndex = 7;
             this.infoSystemsRadioButton.TabStop = true;
             this.infoSystemsRadioButton.Text = "Information Systems";
@@ -112,62 +121,69 @@
             // 
             // idTextBox
             // 
-            this.idTextBox.Location = new System.Drawing.Point(112, 48);
+            this.idTextBox.Location = new System.Drawing.Point(205, 89);
+            this.idTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.idTextBox.Name = "idTextBox";
-            this.idTextBox.Size = new System.Drawing.Size(119, 20);
+            this.idTextBox.Size = new System.Drawing.Size(215, 29);
             this.idTextBox.TabIndex = 6;
             // 
             // nameTextBox
             // 
-            this.nameTextBox.Location = new System.Drawing.Point(112, 22);
+            this.nameTextBox.Location = new System.Drawing.Point(205, 41);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(119, 20);
+            this.nameTextBox.Size = new System.Drawing.Size(215, 29);
             this.nameTextBox.TabIndex = 5;
             // 
             // outputRequiredHoursLabel
             // 
             this.outputRequiredHoursLabel.AutoSize = true;
-            this.outputRequiredHoursLabel.Location = new System.Drawing.Point(15, 145);
+            this.outputRequiredHoursLabel.Location = new System.Drawing.Point(28, 268);
+            this.outputRequiredHoursLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.outputRequiredHoursLabel.Name = "outputRequiredHoursLabel";
-            this.outputRequiredHoursLabel.Size = new System.Drawing.Size(84, 13);
+            this.outputRequiredHoursLabel.Size = new System.Drawing.Size(153, 25);
             this.outputRequiredHoursLabel.TabIndex = 3;
             this.outputRequiredHoursLabel.Text = "Required Hours:";
             // 
             // inputAcademicTrackLabel
             // 
             this.inputAcademicTrackLabel.AutoSize = true;
-            this.inputAcademicTrackLabel.Location = new System.Drawing.Point(11, 96);
+            this.inputAcademicTrackLabel.Location = new System.Drawing.Point(20, 177);
+            this.inputAcademicTrackLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.inputAcademicTrackLabel.Name = "inputAcademicTrackLabel";
-            this.inputAcademicTrackLabel.Size = new System.Drawing.Size(88, 13);
+            this.inputAcademicTrackLabel.Size = new System.Drawing.Size(160, 25);
             this.inputAcademicTrackLabel.TabIndex = 2;
             this.inputAcademicTrackLabel.Text = "Academic Track:";
             // 
             // inputIDlLabel
             // 
             this.inputIDlLabel.AutoSize = true;
-            this.inputIDlLabel.Location = new System.Drawing.Point(38, 51);
+            this.inputIDlLabel.Location = new System.Drawing.Point(70, 94);
+            this.inputIDlLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.inputIDlLabel.Name = "inputIDlLabel";
-            this.inputIDlLabel.Size = new System.Drawing.Size(61, 13);
+            this.inputIDlLabel.Size = new System.Drawing.Size(111, 25);
             this.inputIDlLabel.TabIndex = 1;
             this.inputIDlLabel.Text = "ID Number:";
             // 
             // inputNameLabel
             // 
             this.inputNameLabel.AutoSize = true;
-            this.inputNameLabel.Location = new System.Drawing.Point(61, 25);
+            this.inputNameLabel.Location = new System.Drawing.Point(112, 46);
+            this.inputNameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.inputNameLabel.Name = "inputNameLabel";
-            this.inputNameLabel.Size = new System.Drawing.Size(38, 13);
+            this.inputNameLabel.Size = new System.Drawing.Size(70, 25);
             this.inputNameLabel.TabIndex = 0;
             this.inputNameLabel.Text = "Name:";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(314, 262);
+            this.ClientSize = new System.Drawing.Size(576, 484);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.getHoursButton);
             this.Controls.Add(this.studentDataGroupBox);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Computer Science Student";
             this.studentDataGroupBox.ResumeLayout(false);
